@@ -5,10 +5,36 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.accent {
+  color: hsl(277, 64%, 61%);
+}
 #main {
   background-color: hsl(244, 38%, 16%);
 }
 body {
   color: white;
+  background-color: hsl(233, 47%, 7%);
+}
+#photo {
+  opacity: 0.5;
+  height: 446px;
 }
 
+.photo {
+  height: 446px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(
+    hsl(277, 64%, 61%),
+    hsl(277, 64%, 61%)
+    );
+  padding-left: 0;
+  padding-right: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
